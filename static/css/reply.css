@@ -1,8 +1,27 @@
 .reply-form {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px;
   border-color: #ddd;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px 4px 0 0;
+}
+
+.reply-block {
+  margin-top: 20px;
+  padding: 10px;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px 4px 0 0;
+}
+
+.reply-username {
+  font-size: 10px;
+  color: #ce4844;
+}
+
+.reply-content {
+  font-size: 10px;
+  color: #ce4844;
 }
