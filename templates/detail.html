@@ -11,13 +11,13 @@
       <div class="blog-post">
         <p>{{ article.content }}</p>
       </div>
-      <div class="reply-form">
+      <div class="reply-block">
       <!-- <div class="reply-block"> 로드가 안됨 -->
         {% for comment in article.article_comments.all %}
         <div class="row">
           <p class="reply-username text-capitalize col-sm-1"><strong>{{ comment.username }}</strong></p>
           <!-- <p class="col-sm-1"> : </p> -->
-          <p class="text-left col-sm-9">: &nbsp; &nbsp;{{ comment.content }}</p>
+          <p class="reply-content ext-left col-sm-9">: &nbsp; &nbsp;{{ comment.content }}</p>
         </div>
         {% endfor %}
       </div>
